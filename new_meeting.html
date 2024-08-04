@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Meeting</title>
+    <link rel="stylesheet" href="new_meeting_stylesheet.css">
+    <script type="module" src="new_meeting.js"></script>
+</head>
+<body>
+<div id="grad">
+    <div class="topnav">
+        <img src="buddies.png" alt="Study Buddies">
+        <a class="active" href="index.html">&nbsp;Home</a>
+        <a href="curr_classes.html">&emsp;Current Classes</a>
+        <div id="right">
+            <a href="index.html">Log-In</a>
+        </div>
+    </div>
+    <div class="header">
+        <h3>New Meeting</h3>
+        <p>Please fill out the form to create a new meeting.</p>
+    </div>
+    <!--<form>-->
+    <div class="box">
+        <div class="child_box"><h3>Create a New Meeting</h3></div>
+        <br><br>
+        <div class="date">
+            Date:
+            <div class="datepicker-container">
+                <input type="text" class="date-input" />
+
+                <div class="datepicker" hidden>
+                    <div class="datepicker-header">
+                    <button class="prev">Prev</button>
+
+                    <div>
+                        <select class="month-input">
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                        <input type="number" class="year-input" value="2024">
+                    </div>
+
+                    <button class="next">Next</button>
+                    </div>
+
+                    <div class="days">
+                        <span>Sun</span>
+                        <span>Mon</span>
+                        <span>Tue</span>
+                        <span>Wed</span>
+                        <span>Thu</span>
+                        <span>Fri</span>
+                        <span>Sat</span>
+                    </div>
+
+                    <div class="dates"></div>
+                    <div class="datepicker-footer">
+                        <button class="cancel">Cancel</button>
+                        <button class="apply">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="time">
+            Time: <br>
+            <select id="hours"></select> :
+            <select id="minutes"></select>
+            <select id="am/pm">
+                <option>AM</option>
+                <option>PM</option>
+            </select>
+        </div>
+        <br><br>
+        <div class="building">
+            Building: *<br>
+            <input type="text" id="building_text">
+        </div>
+        <br><br>
+        <div class="room">
+            Room: *<br>
+            <input type="text" id="room_text">
+        </div>
+        <br><br>
+        <div class="max_attendees">
+            Max number of attendees: <br>
+            <input type="number">
+        </div>
+        <br><br>
+        <button id = "create" class="create">Create</button>
+        <div id="missing_fields" class="popup">
+            <div class="popup-content">
+                <h3>You are missing some required fields</h3>
+                <button id="closePopupOk">Ok</button>
+            </div>
+        </div>
+        <div id="myPopup" class="popup">
+            <div class="popup-content">
+                <h3>Are you sure?</h3>
+                <a href="curr_meetings.html"> <button type="submit" id="closePopupYes">Yes</button> </a>
+                &emsp;
+                <button id="closePopup">No</button>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+</div>
+<br>
+<div class = "footer">
+    <br>
+    <img class="buddies" src="buddies.png" alt="Study Buddies"> &nbsp;&nbsp;<sup>&copy;</sup> 2024 Study Buddies. All Rights Reserved.
+    <br>
+    <p><a href="contact_us.html">Contact Us</a></p>
+    <div class="social-links__item">
+        <a class="social-links__link" href="https://facebook.com/" title="Visit us on Facebook">
+            <img src="facebook.png" alt="https://facebook.com/">
+        </a>
+        <a class="social-links__link" href="https://x.com/" title="Visit us on X">
+            <img src="x.png" alt="https://x.com/">
+        </a>
+        <a class="social-links__link" href="https://instagram.com/" title="Visit us on Instagram">
+            <img src="instagram.jpeg" alt="https://instagram.com/">
+        </a>
+    </div>
+    <br>
+    </div>
+</body>
+</html>

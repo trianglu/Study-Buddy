@@ -1,0 +1,140 @@
+.topnav {
+    font-size: 20px;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size: 23px;
+    color: white;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#right {
+    float: right;
+}
+
+.header {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+
+.box {
+    width: 400px;
+    height: 100%;
+    border: 1px solid black;
+    margin:auto;
+    display:block;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.child_box {
+    position:relative;
+    height: 5%;
+    width: 35%;
+    margin:auto;
+    display:block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.child_box_2 {
+    text-align: center;
+}
+
+.child_box_2 > input {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid;
+    background: lightgray;
+}
+
+button {
+    margin:auto;
+    display:block;
+    background-color:green;
+    color: white;
+    width: 45px;
+    height: 35px;
+    font-size: 15px;
+}
+
+#log_in {
+    width: 75px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#verify {
+    margin-top: 5px;
+}
+
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.popup-content {
+    background-color: lightgreen;
+    margin: 20% auto;
+    padding: 10px;
+    border: 1px solid;
+    width: 15%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.popup.show {
+    display: block;
+}
+
+#grad {
+    background-image: linear-gradient(to bottom, rgba(0,80,53,1), rgba(164,150,101,1), rgba(0,0,0,0), rgba(164,150,101,1), rgba(0,80,53,1))
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+.footer {
+    margin-top:auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+}
+
+.social-links__item {
+    margin-left: auto;
+    margin-right: auto;
+}
