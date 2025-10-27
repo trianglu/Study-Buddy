@@ -20,31 +20,57 @@ This project focuses on simplicity, accessibility, and collaborative learning.
 ## Project Structure
 
 Study-Buddy/
+
 │
+
 ├── index.html                # Homepage
+
 ├── attendees.html            # Attendees list page
+
 ├── curr_classes.html         # Displays enrolled classes
+
 ├── curr_meetings.html        # Shows active study meetings
+
 ├── new_meeting.html          # Create a new meeting
+
 ├── sign_up.html              # Registration page
+
 │
+
 ├── index.js                  # Homepage script
+
 ├── new_meeting.js            # Handles meeting form logic
+
 │
+
 ├── index_stylesheet.css
+
 ├── attendees_stylesheet.css
+
 ├── curr_classes_stylesheet.css
+
 ├── curr_meetings_stylesheet.css
+
 ├── new_meeting_stylesheet.css
+
 ├── sign_up_stylesheet.css
+
 ├── contact_us_stylesheet.css
+
 │
+
 ├── images/                   # (Optional) Social and UI icons
+
 │   ├── buddies.png
+
 │   ├── facebook.png
+
 │   ├── instagram.jpeg
+
 │   ├── x.png
+
 │
+
 └── contact_us.html           # Contact page
 
 ---
@@ -54,16 +80,19 @@ Study-Buddy/
 You don’t need any special setup — just open the files in your browser!
 
 1. **Clone the repository**
-   bash
+   bash:
+
    git clone https://github.com/trianglu/Study-Buddy.git
+   
    cd Study-Buddy
 
 2. **Open the project**
 
    * Double-click index.html, or
+   
    * Use a local server (recommended for JS features):
 
-     bash
+bash:
      npx http-server
 
      Then visit [http://localhost:8080](http://localhost:8080)
